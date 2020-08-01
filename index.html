@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>JC - Trading</title>
+    <meta name="description" content="">
+    <meta name="author" content="KingEze">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <!--this page style-->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
+    <div class="jumbotron">
+        <!--Header-->
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" width="50" height="50" alt="JC Trading" />
+                    JC Trading
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--cover-->
+        <main role="main" class="inner cover" id="home">
+            <div class="container">
+                <h1 class="cover-heading text-center">JC Trading</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            </div>
+        </main>
+
+        <!--About-->
+        <section id="about">
+            <div class="container">
+                <h1 class="text-center">About <span>JC-Trading</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="row">
+                    <div class="col-md">
+                        <img src="images/pc_with_chart.jpg" width="300" height="200" alt="pc with chart" />
+                    </div>
+                    <div class="col-md">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <ul class="fa-ul">
+                            <li class="fa-li fa fa-arrow-right" aria-hidden="true">Lorem ipsum dolor sit amet</li>
+                            <li class="fa-li fa fa-arrow-right" aria-hidden="true">Lorem ipsum dolor</li>
+                            <li class="fa-li fa fa-arrow-right" aria-hidden="true">Lorem ipsum dolor sit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--courses-->
+        <section id="courses">
+            <div class="container">
+                <h1 class="text-center">Courses</h1>
+                <ul class="row courses_list">
+                    <li class="container course">
+                        <a href="#" class="row">
+                            <div class="col-md-3">
+                                <img src="images/ichimoku_pic.jpg" width="665" height="489" alt="ichimoku chart" />
+                            </div>
+                            <div class="col-md-9">
+                                <h2>Ichimoku</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="container course">
+                        <a href="#" class="row">
+                            <div class="col-md-3">
+                                <img src="images/ichimoku_pic.jpg" width="665" height="489" alt="ichimoku chart" />
+                            </div>
+                            <div class="col-md-9">
+                                <h2>Ichimoku</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section id="contact">
+            <div class="container bg-grey">
+                <h1 class="text-center">Contact US</h1>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p id="location"><span class="fa fa-map-marker" aria-hidden="true"></span> Burkina Faso - Bobo Dioulasso XXX</p>
+                        <p id="tel"><span class="fa fa-phone" aria-hidden="true"></span> +226 00 00 00 00</p>
+                        <p id="email"><span class="fa fa-envelope-o" aria-hidden="true"></span> box@mail.com</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                            </div>
+                        </div>
+                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button class="btn btn-secondary pull-right" type="submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center">
+            <p>Copyright © 2020</p>
+        </footer>
+    </div>
+    <!-- JavaScript files placed at the end of the document so the pages load faster
+    ================================================== -->
+    <!-- Jquery, popper and Bootstap core js files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
