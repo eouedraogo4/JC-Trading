@@ -16,6 +16,9 @@
     <!-- Font Awesome CSS -->
     <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
+    <!-- Web Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
     <style>
         img {
             max-width: 100%;
@@ -27,10 +30,10 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
-    <div class="jumbotron">
+    <div class="main_wrapper">
         <!--Header-->
         <header>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" width="50" height="50" alt="JC Trading" />
                     JC Trading
@@ -58,7 +61,7 @@
         </header>
 
         <!--cover-->
-        <main role="main" class="inner cover" id="home">
+        <main role="main" class="inner cover container-fluid" id="home">
             <div class="container">
                 <h1 class="cover-heading text-center">JC Trading</h1>
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
@@ -72,7 +75,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="row">
                     <div class="col-md">
-                        <img src="images/pc_with_chart.jpg" width="300" height="200" alt="pc with chart" />
+                        <img src="images/pc_with_chart.jpg" class="img-fluid" alt="pc with chart" />
                     </div>
                     <div class="col-md">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
@@ -93,24 +96,16 @@
                 <ul class="row courses_list">
                     <li class="container course">
                         <a href="#" class="row">
-                            <div class="col-md-3">
-                                <img src="images/ichimoku_pic.jpg" width="665" height="489" alt="ichimoku chart" />
-                            </div>
-                            <div class="col-md-9">
-                                <h2>Ichimoku</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
+                            <img src="images/ichimoku_pic.jpg" class="img-thumbnail" alt="ichimoku chart" />
+                            <h2>Ichimoku</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </a>
                     </li>
                     <li class="container course">
                         <a href="#" class="row">
-                            <div class="col-md-3">
-                                <img src="images/ichimoku_pic.jpg" width="665" height="489" alt="ichimoku chart" />
-                            </div>
-                            <div class="col-md-9">
-                                <h2>Ichimoku</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
+                            <img src="images/ichimoku_pic.jpg" class="img-thumbnail" alt="ichimoku chart" />
+                            <h2>Ichimoku</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </a>
                     </li>
                 </ul>
@@ -120,7 +115,7 @@
         <!--contact-->
         <section id="contact">
             <div class="container bg-grey">
-                <h1 class="text-center">Contact US</h1>
+                <h1 class="text-center">Contact Us</h1>
                 <div class="row">
                     <div class="col-sm-5">
                         <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
