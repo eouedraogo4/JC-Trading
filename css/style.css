@@ -1,34 +1,61 @@
 ﻿/*
  * Global
  */
+body {
+    font-size: 1em;
+}
+
 h1 {
     font-family: 'Vollkorn', serif;
     margin: 1em 0;
 }
 
+h2 {
+    color: #6748a8;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .main_wrapper {
     background-color: white;
     color: black;
 }
 
+section {
+    padding: 2em 0;
+}
+
 /*
  * Header
  */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.10);
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 1em;
+}
+
+#logo {
+    width: 70px;
+    height: 80px;
+}
+
+.navbar-brand {
+    font: bold 2em 'Lucida Calligraphy', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav-link {
     color: #fff !important;
-    font-size: 18px;
-    font-weight: 300;
+    font-family: Corbel;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
     background-color: transparent;
-    
 }
 
 .nav-item {
-    padding: 0.5em 1em;
+    padding: 0em 1em;
 }
 
 .nav-link.active {
@@ -69,12 +96,16 @@ header #navbarNav ul {
 #about li {
     width: 100%;
     text-align: left;
-    margin-left: 3em;
-}
+    padding-left: 3em;
+} 
 
 /*
  * Courses
  */
+
+#courses {
+    background-color: #6dcff6;
+}
 #courses ul {
     list-style-type: none;
     margin: 0;
@@ -82,27 +113,11 @@ header #navbarNav ul {
 }
 
 #courses li {
-    border: 1px solid #dee2e6;
+    border: 1px solid #6dcff6;
     border-radius: 1rem;
     box-shadow: 1px 3px 10px;
     margin: 1em 0;
-}
-
-#courses li a {
-    padding: 1em;
-    height: 80%;
-}
-
-#courses li a img {
-    width: 200px;
-    height: 150px;
-}
-/*
-#courses li {
-    border: 1px solid #dee2e6;
-    border-radius: 1rem;
-    box-shadow: 1px 3px 10px;
-    margin: 1em 0;
+    max-height: 183px;
 }
 
 #courses li a {
@@ -117,4 +132,26 @@ header #navbarNav ul {
     grid-row: span 2 / auto;
     width: 200px;
     height: 150px;
-}*/
+}
+
+#courses li a p {
+    overflow: auto;
+    color: black;
+}
+
+/*
+ * contact
+*/
+#location span,
+#tel span,
+#email span{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+/*
+ * footer
+*/
+footer {
+    padding: 1em 0 2em 0;
+}
