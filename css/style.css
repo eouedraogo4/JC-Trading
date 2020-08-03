@@ -186,6 +186,12 @@ header #navbarNav ul {
     margin-right: 1em;
 }
 
+#social_network a {
+    margin-right: 2em;
+    color: black;
+
+}
+
 /*
  * footer
 */
