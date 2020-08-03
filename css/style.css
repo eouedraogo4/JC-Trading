@@ -26,6 +26,7 @@ h2:hover {
 
 p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
 }
 
 .main_wrapper {
@@ -197,4 +198,8 @@ header #navbarNav ul {
 */
 footer {
     padding: 1em 0 2em 0;
+}
+
+footer p {
+    text-align: center;
 }

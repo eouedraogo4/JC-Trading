@@ -1,0 +1,101 @@
+﻿/*
+ * Global
+ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    margin: 1em 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-left: 4em;
+}   
+
+p {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+/*
+ * Header
+ */
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    background-color: black;
+    padding: 0.5em;
+}
+
+#logo {
+    width: 50px;
+    height: 60px;
+}
+
+.navbar-brand {
+    font: bold 1.5em 'Lucida Calligraphy', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: Corbel;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.nav-item {
+    padding: 0em 1em;
+}
+
+.nav-link.active {
+    color: #55acee !important;
+}
+
+header #navbarNav {
+    justify-content: flex-end;
+}
+
+header #navbarNav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+/*
+ * back button
+*/
+.back_to_list a
+{
+ color: black;   
+}
+
+/*
+ * Course
+*/
+#course ol {
+    padding-left: 0;
+}
+/*
+ * footer
+*/
+footer {
+    padding: 1em 0 2em 0;
+}
+
+footer p {
+    text-align: center;
+}
