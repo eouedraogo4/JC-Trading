@@ -11,18 +11,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Bootstrap-->
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
     <!--
-            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     -->
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
     <!-- Font Awesome CSS -->
     <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-    <!-- Web Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
-
+    <!-- Web Fonts
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    -->
     <style>
         img {
             max-width: 100%;
@@ -32,6 +32,10 @@
 
     <!--this page style-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Float Panel on scroll -->
+    <script src="js/float-panel.js"></script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
     <div class="main_wrapper">
@@ -46,7 +50,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav smooth-scroll">
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -67,8 +71,8 @@
         <!--cover-->
         <main role="main" class="inner cover container-fluid" id="home">
             <div class="container">
-                <h1 class="cover-heading text-center">JC Trading</h1>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                <h1 class="cover-heading text-center slideanim">JC Trading</h1>
+                <p class="text-center slideanim">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
             </div>
         </main>
 
@@ -79,7 +83,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="row">
                     <div class="col-md">
-                        <img src="images/pc_with_chart.jpg" class="img-fluid" alt="pc with chart" />
+                        <img src="images/pc_with_chart.jpg" class="img-fluid slideanim" alt="pc with chart" />
                     </div>
                     <div class="col-md">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
@@ -98,15 +102,15 @@
             <div class="container">
                 <h1 class="text-center">Courses</h1>
                 <ul class="row courses_list">
-                    <li class="container course">
+                    <li class="container course slideanim">
                         <a href="#" class="container">
                             <img src="images/ichimoku_pic.jpg" class="img-thumbnail" alt="ichimoku chart" />
                             <h2>Ichimoku</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </a>
                     </li>
-                    <li class="container course">
-                        <a href="#" class="row">
+                    <li class="container course slideanim">
+                        <a href="#" class="container">
                             <img src="images/ichimoku_pic.jpg" class="img-thumbnail" alt="ichimoku chart" />
                             <h2>Ichimoku</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -127,7 +131,7 @@
                         <p id="tel"><span class="fa fa-phone" aria-hidden="true"></span>+226 00 00 00 00</p>
                         <p id="email"><span class="fa fa-envelope-o" aria-hidden="true"></span>box@mail.com</p>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-7 slideanim">
                         <div class="row">
                             <div class="col-sm-6 form-group">
                                 <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -154,19 +158,21 @@
     <!-- JavaScript files placed at the end of the document so the pages load faster
     ================================================== -->
     <!-- Jquery, popper and Bootstap core js files -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
     <!--
-            <script src="plugins/jquery-3.5.1.slim.min.js"></script>
-            <script src="plugins/popper.min.js"></script>
-            <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     -->
+
+    <script src="plugins/jquery-3.5.1.slim.min.js"></script>
+    <script src="plugins/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Initialization of Plugins -->
     <script type="text/javascript" src="js/template.js"></script>
     <!-- Custom Scripts -->
     <script type="text/javascript" src="js/custom.js"></script>
+
+    
 </body>
 </html>
