@@ -20,6 +20,10 @@ h2 {
     font-size: 2em;
 }
 
+h2:hover {
+    text-decoration: underline;
+}
+
 p {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -161,6 +165,10 @@ header #navbarNav ul {
     grid-row: span 2 / auto;
     width: 200px;
     height: 150px;
+}
+
+#courses li a:hover {
+    text-decoration: none;
 }
 
 #courses li a p {
